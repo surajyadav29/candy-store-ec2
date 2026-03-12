@@ -1,4 +1,4 @@
-Candy Store – Node.js Deployment on AWS EC2
+#Candy Store – Node.js Deployment on AWS EC2
 Project Overview
 
 This project demonstrates how to deploy a Node.js web application on AWS EC2.
