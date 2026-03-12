@@ -24,9 +24,9 @@ npm
 
 # Port and Purpose
 
-1. 22 SSH Access, 
-2. 80 HTTP,
-3. 3000 Node.js Application.
+1. 22 SSH Access
+2. 80 HTTP
+3. 3000 Node.js Application
 
 # Deploy From Local Project → GitHub → EC2
 # Step 1 – Open Terminal and Navigate to Project
