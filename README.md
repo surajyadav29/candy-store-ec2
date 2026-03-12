@@ -22,8 +22,6 @@ Linux (Amazon Linux)
 
 npm
 
-Deployment Architecture
-
 AWS EC2 Setup
 
 1. Launch an EC2 Instance
