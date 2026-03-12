@@ -54,12 +54,6 @@ Step 4 – Connect to EC2 Server
 ssh -i "C:\Users\AJAY YADAV\Downloads\ec2.pem" ec2-user@your-ec2-public-ip
 
 Step 5 – Install Required Software on 
-
-Step 9 – Access the Application
-
-Open in browser:
-
-http://your-ec2-public-ip:3000EC2
 sudo yum update -y
 sudo yum install git -y
 sudo yum install nodejs -y
@@ -76,8 +70,13 @@ This installs packages defined in package.json using npm.
 
 Step 8 – Start the Application
 node app.js
-
 Server will start on port 3000.
+
+Step 9 – Access the Application
+
+Open in browser:
+
+http://your-ec2-public-ip:3000
 
 Author
 
