@@ -24,22 +24,6 @@ npm
 
 Deployment Architecture
 
-Local Project
-│
-│ Push
-▼
-GitHub Repository
-│
-│ Clone
-▼
-AWS EC2 Server
-│
-Install Dependencies
-│
-Run Node Server
-│
-Users access via Public IP
-
 AWS EC2 Setup
 
 1. Launch an EC2 Instance
