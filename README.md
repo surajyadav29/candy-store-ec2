@@ -33,14 +33,14 @@ npm
 cd "C:\Users\AJAY YADAV\OneDrive\Desktop\Documents\Ajay\Projects\candy-store"
 
 # Step 2 – Initialize Git
-git init
-git add .
-git commit -m "Initial commit of candy-store project"
+1. git init
+2. git add .
+3. git commit -m "Initial commit of candy-store project"
 
 # Step 3 – Connect Repository to GitHub
-git remote add origin https://github.com/surajyadav29/candy-store1.git
-git branch -M main
-git push -u origin main
+1. git remote add origin https://github.com/surajyadav29/candy-store1.git
+2. git branch -M main
+3. git push -u origin main
 
 This uploads the project to GitHub.
 
@@ -48,14 +48,14 @@ This uploads the project to GitHub.
 ssh -i "C:\Users\AJAY YADAV\Downloads\ec2.pem" ec2-user@your-ec2-public-ip
 
 # Step 5 – Install Required Software on 
-sudo yum update -y
-sudo yum install git -y
-sudo yum install nodejs -y
-sudo yum install libatomic -y
+1. sudo yum update -y
+2. sudo yum install git -y
+3. sudo yum install nodejs -y
+4. sudo yum install libatomic -y
 
 # Step 6 – Clone Repository on EC2
-git clone https://github.com/surajyadav29/candy-store1.git
-cd candy-store1
+1. git clone https://github.com/surajyadav29/candy-store1.git
+2. cd candy-store1
 
 # Step 7 – Install Dependencies
 npm install
