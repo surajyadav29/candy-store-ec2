@@ -15,7 +15,7 @@ Deploy a Node.js application from GitHub to an Amazon EC2 cloud server.
 
 # Deployment Steps
 
-## 1️ Launch EC2 Instance
+## 1️. Launch EC2 Instance
 
 Launch an EC2 instance from the AWS console.
 
@@ -26,7 +26,7 @@ Creates a virtual server in the cloud where the application will run.
 
 ---
 
-## 2️ Configure Security Group
+## 2️. Configure Security Group
 
 Allow these ports:
 
@@ -38,7 +38,7 @@ Allow these ports:
 
 ---
 
-## 3️ Open WSL Terminal
+## 3️. Open WSL Terminal
 
 Move to the folder containing the EC2 key:
 
@@ -48,7 +48,7 @@ cd Downloads
 
 ---
 
-## 4️ Connect to EC2 Server
+## 4️. Connect to EC2 Server
 
 ```
 ssh -i ec2.pem ec2-user@51.21.171.67
@@ -68,7 +68,7 @@ Explanation:
 
 ---
 
-## 5️⃣ Update System Packages
+## 5️. Update System Packages
 
 ```
 sudo yum update -y
@@ -83,7 +83,7 @@ Purpose: update server packages and security patches.
 
 ---
 
-## 6️⃣ Install Git
+## 6️. Install Git
 
 ```
 sudo yum install git -y
@@ -93,7 +93,7 @@ Git allows the server to download code from GitHub.
 
 ---
 
-## 7️⃣ Install Node.js
+## 7️. Install Node.js
 
 ```
 sudo yum install nodejs -y
@@ -103,7 +103,7 @@ Node.js runs JavaScript applications on the server.
 
 ---
 
-## 8️⃣ Install Required Library
+## 8️. Install Required Library
 
 ```
 sudo yum install libatomic -y
@@ -117,7 +117,7 @@ libatomic.so.1 missing
 
 ---
 
-## 9️⃣ Verify Installation
+## 9️. Verify Installation
 
 ```
 node -v
@@ -129,7 +129,7 @@ npm -v
 
 ---
 
-## 🔟 Clone GitHub Repository
+## 10. Clone GitHub Repository
 
 ```
 git clone https://github.com/surajyadav29/candy-store.git
@@ -143,7 +143,7 @@ candy-store
 
 ---
 
-## 1️⃣1️⃣ Move Into Project Folder
+## 11. Move Into Project Folder
 
 ```
 cd candy-store
@@ -151,7 +151,7 @@ cd candy-store
 
 ---
 
-## 1️⃣2️⃣ Install Project Dependencies
+## 12. Install Project Dependencies
 
 ```
 npm install
@@ -173,7 +173,7 @@ node_modules
 
 ---
 
-## 1️⃣3️⃣ Start Application Server
+## 13. Start Application Server
 
 ```
 node app.js
@@ -191,7 +191,7 @@ Meaning the application runs on **port 3000**.
 
 ---
 
-## 1️⃣4️⃣ Open Application
+## 14. Open Application
 
 Open in browser:
 
